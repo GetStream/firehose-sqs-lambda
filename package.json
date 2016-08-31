@@ -1,0 +1,25 @@
+{
+  "name": "firehose-sqs-lambda",
+  "version": "1.0.0",
+  "description": "Learn best practices for working with the Stream Firehose, Lambda, SQS, and Redis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GetStream/firehose-sqs-lambda.git"
+  },
+  "author": "Nick Parsons <nick@getstream.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GetStream/firehose-sqs-lambda/issues"
+  },
+  "homepage": "https://github.com/GetStream/firehose-sqs-lambda#readme",
+  "dependencies": {
+    "aws-sdk": "^2.5.3",
+    "getstream": "^3.4.1",
+    "moment": "^2.14.1",
+    "redis": "^2.6.2"
+  }
+}
